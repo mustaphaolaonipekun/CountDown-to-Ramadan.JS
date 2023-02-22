@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+html {
+  font-size: 65%;
+}
+body {
+  background-image: url(1.jpg);
+  margin: 0;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+:root{
+    --pink:darkcyan;
+}
+.countdown{
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+}
+h1{
+    /* font-weight: normal; */
+    font-size: 50px;
+    color: var(--pink);
+  margin-top: -30px;
+}
+.dates{
+    font-size: 40px;
+    line-height: 1;
+    margin: 0 40px;
+}
+.count{
+    display: flex;
+    flex-wrap: wraps;
+    text-align: center;
+}
+.count span{
+    font-size: 16px;
+    color: darkgoldenrod;
+    font-weight: bold;
+}
